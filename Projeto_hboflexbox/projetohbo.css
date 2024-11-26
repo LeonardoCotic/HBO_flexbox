@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color:#030328 ;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    
+
+}
+#navegacao{
+    background-color: black;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#apresentacao{
+    
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+#menu{
+    padding: 25px;
+    font-size: 18px;
+    height: 30px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+    
+#entrar:hover{
+    background-color: #b441f3;
+
+}
+#entrar{
+    border: solid 0.3px white;
+    margin-right: 25px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 10px;
+    
+    
+}
+#assinar:hover{
+    background-color: #b441f3;
+}
+#assinar{
+    border: solid 0.3px white;
+    padding-top: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+
+#chamada{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#mosaico{
+    max-width: 400px;
+    max-height: 300px;
+    margin-bottom: 45px;
+}
+
+#acao{
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: solid 0.3px white;
+}
+#acao:hover{
+   background: #b441f3  ;
+}
+p{
+    margin-bottom: 100px;
+}
+video{
+    position: absolute; /*deixa o elemento fluteante */
+    height: 100vh;
+    width: 100%;
+    z-index: -100; /* define a camada dos elementos na baground */
+    object-fit: cover;/*preenche o espaço que estava faltando no background*/
+    
+}
